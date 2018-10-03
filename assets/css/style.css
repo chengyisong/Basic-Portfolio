@@ -1,0 +1,115 @@
+
+
+header {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    border-color: #cccccc;
+    border-width: 5px;
+    padding: 15px;
+    width: 15%;
+    float: left;
+    text-align: center;    
+    margin-left: 5%;
+
+}
+
+.top {
+    background-color: white;
+    width: 100%;
+    margin-left: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+
+.nav {
+
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+    border-style: inset;
+    margin-left: -5%;
+    margin-right: -10px;
+    display: block;
+    width: 130%;
+    clear: both;
+
+}
+
+
+
+.links {
+    
+    text-align: right;
+    color: #777777;
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 25%;
+   
+ 
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 960px;
+    background-color:#ffffff;
+    margin: 5%;
+    /* margin-top: 30px; */
+    /* padding-top: 30px; */
+    overflow: auto;
+    display: block;
+
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/leaves-pattern.png");
+    background-repeat: repeat;
+    width: 960px;
+
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    Padding-top: 20px;
+    Padding-left: 20px;
+    
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    border-style: inset;
+    border-width: 1px;
+    
+}
+
+img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    clear: both;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 20px;
+    clear: right;
+    margin-right: 20px;
+    text-align: justify;
+}
+
