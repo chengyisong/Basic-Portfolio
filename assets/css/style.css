@@ -10,60 +10,73 @@ header {
     width: 15%;
     float: left;
     text-align: center;    
-    margin-left: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+
 
 }
 
 .top {
     background-color: white;
     width: 100%;
-    margin-left: 0px;
     position: fixed;
     top: 0px;
     left: 0px;
     display: block;
 }
 
-.nav {
+.line1 {
 
     margin-top: 0.5em;
     margin-bottom: 0px;
     border-style: inset;
-    margin-left: -5%;
-    margin-right: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
     display: block;
-    width: 130%;
+    width: 100%;
     clear: both;
 
 }
 
-
-
 .links {
-    
+    float: right;
+    width: 48%;
+    margin-right: 10%;
+   
+}
+
+li a {
+    text-decoration: none;
+    width: 16%;
+    display: block;
     text-align: right;
     color: #777777;
     float: right;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 25%;
-   
- 
+    padding: 17px;
 
 }
 
-a {
-    text-decoration: none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffebd4;
+    font-weight: bold;
 }
 
 .main {
-    width: 960px;
+    width: 100%;
     background-color:#ffffff;
-    margin: 5%;
-    /* margin-top: 30px; */
-    /* padding-top: 30px; */
+    margin: 10%;
+    margin-top: 75px;
+    margin-left: 0%;
     overflow: auto;
     display: block;
+    padding-bottom: 30px;
 
 }
 
@@ -73,14 +86,16 @@ body {
     color: #777777;
     background-image: url("../images/leaves-pattern.png");
     background-repeat: repeat;
-    width: 960px;
+    width: 80%;
+    margin-left: 10%;
+    
 
 }
 
 h1 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    Padding-top: 20px;
+    Padding-top: 0px;
     Padding-left: 20px;
     
 }
@@ -113,3 +128,57 @@ p {
     text-align: justify;
 }
 
+#name, #email, #msg, input, textarea {
+    margin-left: 20px;
+    margin-top: 5px;
+    }
+
+input {
+    margin-bottom: 15px;
+    width: 90%;
+    font-family: monospace;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    Color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 60px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+#submit:hover {
+    background-color: darkgreen;
+
+}
+
+footer {
+    width: 100%;
+    margin: 0%;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border-width: 7px 0px 0px 0px;
+    border-style: solid;
+    padding-top: 10px;
+    background-color: #666666;
+    border-color: #4daba6;
+    text-align: center;
+    color: rgb(189, 189, 189);
+    font-size: 12px;
+    font-style: italic;
+
+    
+}

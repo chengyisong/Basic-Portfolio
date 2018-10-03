@@ -13,28 +13,35 @@
         <div class="top">
             <header>Carrie Song</header>
         
-            <section class="links">
-                <a href="Index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </section>
-            <hr class="nav">
+            <ul class="links">
+                
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="Index.html">About</a></li>
+                
+            </ul>
+            <hr class="line1">
         </div>
+
         
         
-        <section class="main">
+        <div class="main">
         <h1>Contact</h1>
-            <div>Name</div> 
-                <input class="input1" type="text" name="name"><br>
+        <hr>
+            <div id="name">Name</div> 
+                <input class="input1" type="text" name="name" placeholder="Your Full Name"><br>
             
-            <div>Email</div>
-                <input class="input2" type="text" name="emmail"><br>
+            <div id="email">Email</div>
+                <input class="input2" type="text" name="email" placeholder="Your Email Address"><br>
 
-            <div>Message</div>
-                <input class="input3" type="text" name="nessage"><br>
+            <div id="msg">Message</div>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+            <a href="Index.html" id="submit">Submit</a>
+        
+        </div>
 
-        </section>
-
+        <footer> Copyright © by Carrie Song </footer>
 
     </body>
 
