@@ -2,7 +2,7 @@
 
 header {
     background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lily Script One', cursive;
     color: #ffffff;
     border-color: #cccccc;
     border-width: 5px;
@@ -23,6 +23,7 @@ header {
     top: 0px;
     left: 0px;
     display: block;
+    z-index: 100;
 }
 
 .line1 {
@@ -49,12 +50,11 @@ li a {
     text-decoration: none;
     width: 16%;
     display: block;
-    text-align: right;
+    text-align: center;
     color: #777777;
     float: right;
     padding: 17px;
-
-}
+    font-family: 'Berkshire Swash', cursive;}
 
 ul {
     list-style-type: none;
@@ -126,6 +126,7 @@ p {
     clear: right;
     margin-right: 20px;
     text-align: justify;
+
 }
 
 #name, #email, #msg, input, textarea {
@@ -158,9 +159,18 @@ textarea {
     text-decoration: none;
 }
 
-#submit:hover {
-    background-color: darkgreen;
+#submit:defult {
+    background-color: #4aaaa5;
+    
+}
 
+#submit:hover {
+    background-color: rgb(52, 150, 146);
+
+}
+
+#submit:active {
+    background-color: #2d7572;
 }
 
 footer {
@@ -179,6 +189,67 @@ footer {
     color: rgb(189, 189, 189);
     font-size: 12px;
     font-style: italic;
+    z-index: 10;
 
-    
+}
+
+#port1, #port2, #port3, #port4, #port5 {
+    float: left;
+    position: relative;
+    bottom: 60px;
+    height: 180px;
+    z-index: 1;
+}
+
+#port1 {
+    z-index: 5;
+}
+
+#port2{
+    z-index: 4;
+}
+
+#port3{
+    z-index: 3;
+}
+
+#port4 {
+    z-index: 2;
+}
+
+.port_name {
+    position: relative;
+    top: 180px;
+    left: 20px;
+    width: 200px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.port_name:hover {
+    background-color: #8a044d;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
+
+    header {
+        font-size: 15px;
+    }
+
+    #hiking {
+        width: 83%;
+        height: 20%;
+    }
+
+    .main {
+        width: 90%;
+    }
 }
